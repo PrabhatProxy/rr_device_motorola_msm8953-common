@@ -71,21 +71,26 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.hwc_set_default_colormode=true \
     debug.sf.enable_hwc_vds=1 \
-    debug.sf.hw=1 \
+    debug.sf.hw=0 \
     debug.sf.latch_unsignaled=1 \
-    debug.egl.hw=1 \
-    persist.hwc.mdpcomp.enable=true \
+    debug.egl.hw=0 \
+    debug.sf.disable_backpressure=1 \
+    debug.mdpcomp.logs=0 \
     vendor.gralloc.enable_fb_ubwc=1 \
     vendor.display.disable_skip_validate=1 \
     vendor.video.disable.ubwc=1 \
     dev.pm.dyn_samplingrate=1 \
     persist.demo.hdmirotationlock=false \
+    persist.hwc.enable_vds=1 \
+    persist.hwc.mdpcomp.enable=true \
     debug.enable.sglscale=1 \
     debug.gralloc.enable_fb_ubwc=1 \
     debug.sf.recomputecrop=0 \
+    ro.hardware.egl=adreno \
     ro.opengles.version=196610 \
-    ro.qualcomm.cabl=0
-
+    ro.qualcomm.cabl=0 \
+    ro.vendor.display.cabl=0
+    
 # Fingerprint
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.qfp=false
