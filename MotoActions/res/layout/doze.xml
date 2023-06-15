@@ -28,7 +28,7 @@
         android:layout_width="match_parent"
         android:layout_height="160dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/ambient_png" />
+        android:src="@drawable/ic_doze" />
 
     <include layout="@layout/switch_bar" />
 

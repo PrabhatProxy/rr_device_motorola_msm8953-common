@@ -15,8 +15,7 @@ LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
 LOCAL_RESOURCE_DIR := \
     $(LOCAL_PATH)/res \
-    $(TOP)/packages/resources/devicesettings/res \
-    $(TOP)/packages/resources/devicesettings-custom/res 
+    $(LOCAL_PATH)/res-common \
 
 LOCAL_PROGUARD_ENABLED := disabled
 
