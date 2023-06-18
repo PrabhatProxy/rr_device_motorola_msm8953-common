@@ -1,0 +1,4 @@
+[submodule "MotoDolbyV3"]
+	path = MotoDolbyV3
+	url = git@gitlab.com:PrabhatProxy/packages_apps_motodolbyv3.git
+	branch = ten
