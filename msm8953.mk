@@ -27,9 +27,6 @@ COMMON_PATH := device/motorola/msm8953-common
 # Inherit properties
 $(call inherit-product, $(COMMON_PATH)/common_prop.mk)
 
-# MotoDolbyV3
-$(call inherit-product, packages/apps/MotoDolbyV3/config.mk)
-
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(COMMON_PATH)
 
@@ -254,11 +251,6 @@ PRODUCT_PACKAGES += \
 # MotoActions
 PRODUCT_PACKAGES += \
     MotoActions
-
-# Moto Dolby
-PRODUCT_PACKAGES += \
-    MotoDolbyV3
-
 
 # OMX
 PRODUCT_PACKAGES += \
